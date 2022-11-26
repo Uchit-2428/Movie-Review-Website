@@ -1,11 +1,15 @@
 import React, { useEffect, useState, useRef } from 'react'
 import { Typography, Row, Button } from 'antd';
 import { API_URL, API_KEY, IMAGE_BASE_URL, IMAGE_SIZE, POSTER_SIZE } from '../../Config'
-import MainImage from './Sections/MainImage'
+//import MainImage from './Sections/MainImage'
 import GridCard from '../../commons/GridCards'
+import MainImage from '../LandingPage/Sections/MainImage';
 const { Title } = Typography;
 
-function LandingPage() {
+function SearchPage(props) {
+
+    const searchtext = props.match.params.searchtext
+    console.log('search text is '+searchtext)
     const buttonRef = useRef(null);
 
     const [Movies, setMovies] = useState([])
@@ -14,14 +18,14 @@ function LandingPage() {
     const [CurrentPage, setCurrentPage] = useState(0)
 
     useEffect(() => {
-        const endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
-        //const endpoint = `${API_URL}search/movie?api_key=${API_KEY}&query=50 shades`;
+        //const endpoint = `${API_URL}movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
+        const endpoint = `${API_URL}search/movie?api_key=${API_KEY}&query=${searchtext}`;
         fetchMovies(endpoint)
     }, [])
 
-  useEffect(() => {
+    useEffect(() => {
         window.addEventListener("scroll", handleScroll);
-    }, []) 
+    }, [])
 
 
     const fetchMovies = (endpoint) => {
@@ -49,7 +53,7 @@ function LandingPage() {
 
     }
 
- const handleScroll = () => {
+    const handleScroll = () => {
         const windowHeight = "innerHeight" in window ? window.innerHeight : document.documentElement.offsetHeight;
         const body = document.body;
         const html = document.documentElement;
@@ -62,7 +66,7 @@ function LandingPage() {
             buttonRef.current.click();
 
         }
-    } 
+    }
 
     return (
         <div style={{ width: '100%', margin: '0' }}>
@@ -93,7 +97,7 @@ function LandingPage() {
                     ))}
                 </Row>
 
-                {Loading && 
+                {Loading &&
                     <div>Loading...</div>}
 
                 <br />
@@ -106,4 +110,4 @@ function LandingPage() {
     )
 }
 
-export default LandingPage
+export default SearchPage

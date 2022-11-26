@@ -8,7 +8,7 @@ function Footer() {
             flexDirection: 'column', alignItems: 'center',
             justifyContent: 'center', fontSize:'1rem'
         }}>
-           <p> Web Programming Languages  <Icon type="smile" /></p>
+           <p> Uchit Mody | Rahil Parikh | Jai Rajani </p>
         </div>
     )
 }
