@@ -16,17 +16,24 @@ The purpose of the movie review website is to help users determine if they want 
 
 ![image](https://user-images.githubusercontent.com/66696763/204154298-b214f089-fb42-461d-a9f3-7c7d2275f364.png)
 
+
 ![image](https://user-images.githubusercontent.com/66696763/204154277-7b770810-54dd-4c44-9458-ce1e61c8eea7.png)
+
 
 ![image](https://user-images.githubusercontent.com/66696763/204154003-bba53011-1c06-4dad-b797-095d54d3a46a.png)
 
+
 ![image](https://user-images.githubusercontent.com/66696763/204154033-7104b326-f2d5-4e36-8a72-c3941c83c9a6.png)
+
 
 ![image](https://user-images.githubusercontent.com/66696763/204154107-138cbd13-d68b-43f8-b732-9f5f663f15ec.png)
 
+
 ![image](https://user-images.githubusercontent.com/66696763/204154153-181da7d7-bdd5-41c6-9e92-7bd22a8bb41c.png)
 
+
 ![image](https://user-images.githubusercontent.com/66696763/204154223-d83715b9-82f2-4f87-98f9-8c736aa88d8e.png)
+
 
 ## Stack Used
 
