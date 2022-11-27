@@ -21,7 +21,6 @@ The purpose of the movie review website is to help users determine if they want 
 
 ## Requirements
 
- - bcrypt: ^5.1.0,
  - body-parser: ^1.18.3,
  - cookie-parser: ^1.4.3,
  - express: ^4.17.1,
@@ -31,6 +30,7 @@ The purpose of the movie review website is to help users determine if they want 
  - socket.io: ^2.2.0,
  - concurrently: ^4.1.0,
  - nodemon: ^1.19.1
+ - bcrypt: ^5.1.0,
 
 ## Features
 
