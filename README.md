@@ -8,39 +8,43 @@ A movie review website created using MERN stack that allows users to search, fil
 
 The purpose of the movie review website is to help users determine if they want to watch a specific movie. The review should give enough details about the movie so that the user can make an informed decision, without giving away any essentials such as the plot.
 
-## Architectural Diagram
+## Sequence Diagram
 
-## Class Diagram
+<br>
+
+![image](https://user-images.githubusercontent.com/82721312/204243548-0f370f78-b93d-45f4-a29d-46e19874e4d3.png)
+
+<br>
 
 ## Screenshots
 
 ![image](https://user-images.githubusercontent.com/66696763/204154298-b214f089-fb42-461d-a9f3-7c7d2275f364.png)
 
-
+<br>
 
 ![image](https://user-images.githubusercontent.com/66696763/204154277-7b770810-54dd-4c44-9458-ce1e61c8eea7.png)
 
-
+<br>
 
 ![image](https://user-images.githubusercontent.com/66696763/204154003-bba53011-1c06-4dad-b797-095d54d3a46a.png)
 
-
+<br>
 
 ![image](https://user-images.githubusercontent.com/66696763/204154033-7104b326-f2d5-4e36-8a72-c3941c83c9a6.png)
 
-
+<br>
 
 ![image](https://user-images.githubusercontent.com/66696763/204154107-138cbd13-d68b-43f8-b732-9f5f663f15ec.png)
 
-
+<br>
 
 ![image](https://user-images.githubusercontent.com/66696763/204154153-181da7d7-bdd5-41c6-9e92-7bd22a8bb41c.png)
 
-
+<br>
 
 ![image](https://user-images.githubusercontent.com/66696763/204154223-d83715b9-82f2-4f87-98f9-8c736aa88d8e.png)
 
-
+<br>
 
 ## Stack Used
 
